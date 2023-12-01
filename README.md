@@ -1,0 +1,1 @@
+# Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions [[Paper](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjbndLpuu2CAxWX0GEKHY3dBOUQFnoECBAQAQ&url=https%3A%2F%2Farxiv.org%2Fabs%2F2311.00233&usg=AOvVaw0ZOF7zPWlPT11XCYhPTvrr&opi=89978449)]

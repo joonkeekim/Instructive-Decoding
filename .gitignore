@@ -1,0 +1,10 @@
+*__pycache__*
+wandb/
+outputs/
+dev.ipynb
+*.ipynb_checkpoints/
+*output*
+weights/
+figures/
+data/
+results/
