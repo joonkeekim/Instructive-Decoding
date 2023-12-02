@@ -66,7 +66,7 @@ Instructive-Decoding
 └── ...
 ```
 ### Weights
-We used the various models in the paper, and you can load those from Huggingface Hub [[`allenai/tk-instruct-11b-def`](https://huggingface.co/allenai/tk-instruct-11b-def), [allenai/tk-instruct-3b-def](https://huggingface.co/allenai/tk-instruct-3b-def), [`WeOpenML/Alpaca-7B-v1`](https://huggingface.co/WeOpenML/Alpaca-7B-v1),and [bigscience/T0_3B](https://huggingface.co/bigscience/T0_3B)], or utilize weight diff from [open-instruct (OpenSNI-7B)](https://github.com/allenai/open-instruct). <br/>
+We used the various models in the paper, and you can load those from Huggingface Hub [[`allenai/tk-instruct-11b-def`](https://huggingface.co/allenai/tk-instruct-11b-def), [`allenai/tk-instruct-3b-def`](https://huggingface.co/allenai/tk-instruct-3b-def), [`WeOpenML/Alpaca-7B-v1`](https://huggingface.co/WeOpenML/Alpaca-7B-v1),and [`bigscience/T0_3B`](https://huggingface.co/bigscience/T0_3B)], or utilize weight diff from [open-instruct (`OpenSNI-7B`)](https://github.com/allenai/open-instruct). <br/>
 Note that, for `Tk-Large`, we trained our own from [Tk-instruct repository](https://github.com/yizhongw/Tk-Instruct).
 
 ## Run Experiments
