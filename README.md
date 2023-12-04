@@ -1,7 +1,8 @@
 # Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions 
 <a href="https://arxiv.org/abs/2311.00233"><img src="https://img.shields.io/badge/Paper-arXiv:2311.00233-Green"></a>
 
-This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". **🎉 Accepted to Instruction Workshop @ NeurIPS 2023 [[Link](https://openreview.net/forum?id=IqJ3CU3flr)]** 
+This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". <br/>
+**🎉 Accepted to Instruction Workshop @ NeurIPS 2023 [[Link](https://openreview.net/forum?id=IqJ3CU3flr)]** 
 
 **Taehyeon Kim***, **Joonkee Kim***, **Gihun Lee***, **Se-Young Yun** <br/>
 **\***: Equal Contribution
@@ -115,19 +116,19 @@ bash scripts/run_mmlu.sh
 ### 💻 **Key Arguments Explained**
 
 - `noisy`: This argument determines the decoding method to be used. 
-  - If set to `true`, the script employs **Instructive Decoding**, which involves the use of both the original and noisy instructions.
-  - If set to `false`, it executes **Standard Decoding**, using only the original instruction without any noisy variants.
+  - If this is set, the script employs **Instructive Decoding**, which involves the use of both the original and noisy instructions.
+  - If this is not set, it executes **Standard Decoding**, using only the original instruction without any noisy variants.
 
 - `neg_type`: This specifies the type of noisy instruction to be used. 
   - It allows you to choose from a range of predefined noisy instruction variants, each designed to test different aspects of the model's instruction-following capabilities.
 
-- `eps`: This is a crucial hyperparameter for Instructive Decoding. 
+- `eps`: This is a crucial hyperparameter for Instructive Decoding. We recommend to use `-0.3`
   - It represents the balance factor between predictions that are guided by the original instruction and those influenced by the noisy instructions.
   - A higher value of `eps` gives more weight to the influence of noisy instructions, while a lower value leans more towards the original instruction.
 
 - `is_decoder`: This argument defines the architecture of the model in use.
-  - If set to `true`, it indicates that the model is a **decoder-only** transformer model.
-  - If set to `false`, it suggests that the model uses an **encoder-decoder** architecture.
+  - If this is set, it indicates that the model is a **decoder-only** transformer model.
+  - If this is not set, it suggests that the model uses an **encoder-decoder** architecture.
 
 ## 😁 **Misc.**
 Feel free to cite us.
