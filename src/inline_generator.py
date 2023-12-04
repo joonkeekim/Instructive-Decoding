@@ -16,6 +16,26 @@ class InlineGenerator():
         
         self.max_source_length = args.max_source_length
         self.max_target_length = args.max_target_length
+        
+    def instructive_decoding(self, base_input, noisy_input, eps=0.3, verbose=True):
+        
+        baseline_response = self.generate(base_input, noisy_input, eps=0)
+        id_response = self.generate(base_input, noisy_input, eps=eps)
+
+        if verbose:
+            print("\n============== Base Instruction Example ================")
+            print(f"{base_input}\n" + "="*50)
+
+            print("\n============== Noisy Instruction Example ================")
+            print(f"{noisy_input}\n" + "="*50)
+            
+            # Baseline Response
+            print(f"[Base Response]: {baseline_response}")
+
+            # Instructive Decoding Response 
+            print(f"[ID Response]: \033[32m{id_response}\033[0m")
+        
+        return id_response
 
     @torch.no_grad()
     def generate(self, source_text, contrast_text=None, eps=None):
