@@ -1,7 +1,8 @@
 # Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions 
 <a href="https://arxiv.org/abs/2311.00233"><img src="https://img.shields.io/badge/Paper-arXiv:2311.00233-Green"></a>
+<a href="https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". <br/>
+This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". We provide a tutorial in our [**Colab Notebook**](https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing).<br/>
 **🎉 Accepted to Instruction Workshop @ NeurIPS 2023 [[Link](https://openreview.net/forum?id=IqJ3CU3flr)]** 
 
 **Taehyeon Kim***, **Joonkee Kim***, **Gihun Lee***, **Se-Young Yun** <br/>
