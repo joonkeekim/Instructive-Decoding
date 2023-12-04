@@ -23,11 +23,11 @@ class InlineGenerator():
         id_response = self.generate(base_input, noisy_input, eps=eps)
 
         if verbose:
-            print("\n============== Base Instruction Example ================")
-            print(f"{base_input}\n" + "="*50)
+            print("\n============== Base Instruction Example" + "="*32)
+            print(f"{base_input}\n" + "="*70)
 
-            print("\n============== Noisy Instruction Example ================")
-            print(f"{noisy_input}\n" + "="*50)
+            print("\n============== Noisy Instruction Example" + "="*32)
+            print(f"{noisy_input}\n" + "="*70+"\n")
             
             # Baseline Response
             print(f"[Base Response]: {baseline_response}")
