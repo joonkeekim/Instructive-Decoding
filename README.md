@@ -5,7 +5,7 @@
 This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". We provide a tutorial in our [**Colab Notebook**](https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing).<br/>
 
 
-**🚀 Accepted to ICLR 2024 Spotlight [[Link](https://openreview.net/forum?id=IqJ3CU3flr)]** <br/>
+**🚀 Accepted to ICLR 2024 Spotlight [[Link](https://openreview.net/forum?id=LebzzClHYw)]** <br/>
 **🎉 Accepted to Instruction Workshop @ NeurIPS 2023 [[Link](https://openreview.net/forum?id=IqJ3CU3flr)]** 
 
 **Taehyeon Kim***, **Joonkee Kim***, **Gihun Lee***, **Se-Young Yun** <br/>
