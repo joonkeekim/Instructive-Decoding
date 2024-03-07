@@ -1,8 +1,8 @@
-# Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions 
+# Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions
 <a href="https://arxiv.org/abs/2311.00233"><img src="https://img.shields.io/badge/Paper-arXiv:2311.00233-Green"></a>
 <a href="https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-This official repository contains the implementation for the research paper "Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions". We provide a tutorial in our [**Colab Notebook**](https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing).<br/>
+This official repository contains the implementation for the research paper "Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions". We provide a tutorial in our [**Colab Notebook**](https://colab.research.google.com/drive/1bHczXzppIF-AouiPyE8H89CQ9gL_0Xa2?usp=sharing).<br/>
 
 
 **🚀 Accepted to ICLR 2024 Spotlight [[Link](https://openreview.net/forum?id=LebzzClHYw)]** <br/>
@@ -139,9 +139,8 @@ Feel free to cite us.
 
 ```
  @article{instructivedecoding,
-  title={Distort, Distract, Decode: Instruction-Tuned Model Can Refine its Response from Noisy Instructions},
+  title={Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions},
   author={Kim, Taehyeon and Kim, Joonkee and Lee, Gihun and Yun, Se-Young},
   journal={arXiv preprint arXiv:2311.00233},
   year={2023}
 }
-```
